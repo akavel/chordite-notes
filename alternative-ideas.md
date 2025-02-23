@@ -1,0 +1,20 @@
+- [ ] maybe: `winget install AVRDudes.AVRDUDE ZakKemble.avr-gcc`
+- dev setup 
+    - via QEMU + raw avrdude/stuff
+        - <https://qemu-project.gitlab.io/qemu/system/target-avr.html>
+    - via Arduino IDE ?
+        - [ ] embed Rust code as precompiled binary in Arduino IDE project/sketch
+            - <https://arduino.github.io/arduino-cli/1.1/library-specification/#precompiled-binaries> 
+        - [x] find the project with Rust library callable from Arduino IDE
+            - <https://github.com/simondlevy/ArduRust32> (just it's for STM32) 
+        - [ ] make it build for Atmega32U4
+        - [ ] make it work with Teensy (2.0 - this seems builtin) support in Arduino IDE
+            - [ ] make project in Arduino IDE
+            - [ ] ...
+- USB serial & HID
+    - challenge: pure-Rust USB apparently "alpha grade" on avr-hal + atmega32u4
+        - <https://github.com/Rahix/avr-hal/issues/40> - overview of the situation
+        - <https://github.com/Rahix/avr-hal/pull/572> - some PR to maybe take a look at; in some areas looks somewhat messy
+        - <https://github.com/agausmann/atmega-usbd> - other related experimental development
+        - 🤔 <https://github.com/mogenson/atmega32u4-usb-serial> - Teensy C bindings; but will this allow future keyboard support? how about inspiring how to do wrapper/bindings?
+

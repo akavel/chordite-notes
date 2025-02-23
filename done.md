@@ -1,0 +1,12 @@
+- 🚀 via raw avrdude/stuff
+    - [x] create project with `cargo-generate`, for one of supported boards with atmega32u4
+        - [x] Leonardo was chosen
+    - [x] build the Leonardo project to get a hex file for Leonardo
+    - [x] switch to a non-`arduino_hal` type of project, based on `examples/atmega2560`, but keep using `atmega32u4` instead
+    - [x] on Teensy, how pin 11 (A10) of the Teensy board maps to atmega32u4 microcontroller's registers/memory/thigs (pin?)
+        - seemingly it should be: **PD6**
+    - [x] blinky! on raw `atmega32u4`
+    - [x] how to acces `PD6` atmega32u4 pin in Rust?
+    - [x] try <https://github.com/mogenson/atmega32u4-usb-serial> - Teensy USB C bindings
+        - didn't work with `hid_listen.exe` :/
+            - could be many things - either misconfig, or other bug, or just Vendor ID or smth not recognized by `hid_listen.exe`.
