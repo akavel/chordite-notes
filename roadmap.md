@@ -14,14 +14,17 @@ Note:
     - `C:\Users\Mateusz\AppData\Local\Arduino15\packages\teensy\tools\teensy-compile\11.3.1\avr\bin\avr-gcc`
     - <https://github.com/Rahix/avr-hal>
     - [x] serial output & serial monitor
-        - [x] 🚀 a) embed Teensy C code via FFI
+        - [x] a) embed Teensy C code via FFI
             - [x] 🎉 try `usb_debug_only.c` from Teensy C "blinky" example
-    - [ ] detect a pressed switch from a pullup pin
-        - [ ] set pin as pullup
-        - [ ] read it in loop
-        - [ ] if pressed, quickly toggle LED with much shorter delay
-    - [ ] when key pressed, send character to serial output
-        - [ ] do not send again until key released
+    - [x] detect a pressed switch from a pullup pin
+        - [x] set pin as pullup
+            - `PB0` 
+        - [x] read it in loop
+        - [x] if pressed, quickly toggle LED with much shorter delay
+    - [x] when key pressed, send character to serial output
+        - [x] wrap unsafe usb write code in a helper func
+        - [x] do not send again until key released
+            - [x] keep state
     - [ ] do the same but over USB HID, simulating a keyboard
         - [ ] use C code from Teensyduino
         - `C:/Users/Mateusz/AppData/Local/Arduino15/packages/teensy/hardware/avr/1.59.0/cores/usb_serial_hid/usb.c` 
@@ -38,4 +41,15 @@ Actual keyboard stuff.
 ### WIP
 - [ ] ABSTRACTED Rust implementation
     - (non-avr, "pure" rust with stubs/callbacks)
-    - unit tests 
+    - unit tests
+
+## Mouse
+
+## Wireless
+- BLE?
+- Battery-powered?
+    - 2xAAA accumulator ? (or even 1xAAA ?)
+        - "DC-to-DC boost converter" ?
+     
+## Asides
+- <https://docs.rs/ufmt>
