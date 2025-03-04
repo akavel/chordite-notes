@@ -1,4 +1,5 @@
-- 🚀 via raw avrdude/stuff
+## Season 1 - USB on Teensy2
+- [x] via raw avrdude/stuff
     - [x] create project with `cargo-generate`, for one of supported boards with atmega32u4
         - [x] Leonardo was chosen
     - [x] build the Leonardo project to get a hex file for Leonardo
@@ -10,3 +11,38 @@
     - [x] try <https://github.com/mogenson/atmega32u4-usb-serial> - Teensy USB C bindings
         - didn't work with `hid_listen.exe` :/
             - could be many things - either misconfig, or other bug, or just Vendor ID or smth not recognized by `hid_listen.exe`.
+
+### WIP
+- [x] via raw avrdude/stuff
+    - `C:\Users\Mateusz\AppData\Local\Arduino15\packages\teensy\tools\teensy-compile\11.3.1\avr\bin\avr-gcc`
+    - <https://github.com/Rahix/avr-hal>
+    - [x] serial output & serial monitor
+        - [x] a) embed Teensy C code via FFI
+            - [x] 🎉 try `usb_debug_only.c` from Teensy C "blinky" example
+    - [x] detect a pressed switch from a pullup pin
+        - [x] set pin as pullup
+            - `PB0` 
+        - [x] read it in loop
+        - [x] if pressed, quickly toggle LED with much shorter delay
+    - [x] when key pressed, send character to serial output
+        - [x] wrap unsafe usb write code in a helper func
+        - [x] do not send again until key released
+            - [x] keep state
+    - [x] do the same but over USB HID, simulating a keyboard
+        - [x] use C++ code from Teensyduino
+        - [x] USB key send on switch press
+            - <https://forum.pjrc.com/index.php?threads/keyboard-press-doesnt-like-it-when-i-feed-it-a-string.71874/#post-318669>
+            - <https://www.pjrc.com/teensy/td_keyboard.html> 
+        - [x] another USB key send on switch release
+        - `C:/Users/Mateusz/AppData/Local/Arduino15/packages/teensy/hardware/avr/1.59.0/cores/usb_serial_hid/usb.c` 
+        - `C:/Users/Mateusz/AppData/Local/Arduino15/packages/teensy/hardware/avr/1.59.0/cores/teensy/pins_teensy.c`
+            - [ ] maybe `rust-bindgen`?
+                - <https://rust-lang.github.io/rust-bindgen/cpp.html#constructor-semantics> ?
+                - [ ] concerns: <https://cxx.rs/context.html#c-vs-c>
+            - [ ] ✖ ~~maybe <https://docs.rs/autocxx> ?~~
+                - probably not possible b/c autocxx is (?) wrapper over cxx
+            - [x] ✖ ~~maybe <https://cxx.rs> ?~~
+                - seems impossible due to its apparent dependency on `std` (through `foldhash`) 
+    - [ ] LATER: run `cargo doc --features <your-mcu> --open` in <https://rahix.github.io/avr-hal/atmega_hal/index.html> crate's dir
+    - Note: `C:/Users/Mateusz/AppData/Local/Arduino15/packages/teensy/tools/teensy-compile/11.3.1/avr/lib/gcc/avr/7.3.0/device-specs/` 
+
