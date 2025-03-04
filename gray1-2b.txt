@@ -1,0 +1,106 @@
+__^_	Space
+_^__	Backspace
+___^	e
+___v	t
+^___	a
+v___	o
+__v_	i
+_v__	n
+%___	s
+_%__	h
+_^^_	r
+__^v	d
+___%	l
+__^%	u
+_v_v	c
+_^_v	m
+_^^^	w
+_^_%	f
+^__^	g
+v__v	y
+__^^	p
+__vv	b
+_^_^	v
+^_^_	k
+v_v_	j
+_vv_	x
+v__%	z
+__%_	q
+
+%__%	Shift
+%_%_	Ctrl
+%%%_	Alt
+_%%%	R_Alt
+%%_%	GUI
+%_%%	R_GUI
+
+_%_%	Enter
+_%%_	Escape
+^^__	Del
+v%%_	Insert
+
+__%%	Home
+%%__	End
+__%^	PgUp
+__%v	PgDn
+
+^^^_	.
+^^^^	,
+^^_^	;
+vv_v	:
+^__%	!
+^^_%	?
+
+^__v	'
+v__^	"
+v_^_	`
+vv__	/
+vvv_	\
+_%%v	&
+_vvv	*
+_^^v	=
+_^^%	+
+%^^_	-
+%^^^	_
+_v^_	~
+v^__	$
+^^^%	^
+%_%v	%
+vvvv	|
+v^_v	@
+%^^%	#
+
+v_vv	(
+^_^^	)
+_v%_	[
+_^%_	]
+v%__	{
+^%__	}
+^^_v	<
+^^^v	>
+
+%__v	0
+%__^	1
+%_v_	2
+%_^_	3
+%v__	4
+%^__	5
+_%v_	6
+_%^_	7
+_%_v	8
+_%_^	9
+
+%%_v	(Nav/Fn Layer)
+%%%%	(Reset)
+%_^^	CapsLock
+
+--Nav/Fn--
+
+%%_v	quit Nav/Fn (Reset)
+CapsLock    sticky-ALT
+h/j/k/l       🠈/🠋/🠉/🠊
+Bksp/t/e/Spc  🠈/🠋/🠉/🠊
+Bksp/a/e/Spc  🠈/🠋/🠉/🠊
+1-9,0       F1-F9,F10
+PgDn/PgUp    F11/F12
+
