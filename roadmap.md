@@ -42,7 +42,7 @@ Actual keyboard stuff.
                 - [ ] FnMut?
             - [x] `KeyWithFlags` in `UsbOutcome`
             - [ ] LATER: `SwitchSet(u8)`
-        - [ ] 🔔 🚀 try integrating
+        - [x] try integrating
             - [x] test if the new usb function works
             - [x] fixme: publish no_usb const_map to github (fork) & open PR
             - [x] import chordite-chords
@@ -50,21 +50,22 @@ Actual keyboard stuff.
             - [x] try using Chordite::handle() and passing the result to the new usb function
             - [x] debounce
                 - <https://crates.io/crates/debouncr> ? 
-            - [ ] fixup the `path = ...` dependency in `Cargo.toml`
+            - [x] fixup the `path = ...` dependency in `Cargo.toml`
     - [x] right_alt (`ALTGR_MASK`) - for Polish letters
     - [x] bug:
         - [x] `SHIFT, R-ALT, E` -> gives capital `E`, should give capital `Ę`
-    - [ ] **missing!**
-        - [ ] `%`
-        - [ ] `#`
-        - [ ] CapsLock
-        - [ ] Insert
-        - [ ] F1-F12 function keys
+    - [x] missing
+        - [x] `%`
+        - [x] `#`
+        - [x] CapsLock
+        - [x] Insert
+        - [x] F1-F12 function keys
         - [ ] PrintScreen
-    - [ ] layout redesign?
+    - [x] layout redesign?
+    - [ ] real Alt-Tab
     - [ ] Tests
-    - [ ] layout config outsourced to the importer of Chordite type
-        - [ ] prob'ly through a Trait
+    - [x] layout config outsourced to the importer of Chordite type
+        - [x] prob'ly through a Trait
 - [ ] LATER: main LED
 - [ ] LATER: more LEDs
 - [ ] LATER: simplify the USB code - leave only what I need
@@ -90,7 +91,7 @@ Actual keyboard stuff.
 - <https://docs.rs/ufmt>
 - [ ] cleanup the `build.rs` script
 - [ ] cleanup: move C & CPP code to some separate directory in the project tree
-- [ ] slap AGPL headers on source files
+- [x] slap AGPL headers on source files
 - [ ] fix README
 - [ ] Arduino "serial monitor protocol" wrapper for use with Teensy serial monitor handler
     - [ ] intercept and capture `teensy-monitor.exe` inputs issued by Arduino IDE
@@ -98,7 +99,7 @@ Actual keyboard stuff.
     - [ ] implement a wrapper for easy viewing of serial output of Teensy
 - [ ] for KeyWithFlags, impl/derive Debug trait, for nice debugging to serial port
 - [ ] make KeyWithFlags be an enum
-- [ ] can I merge chordite-rust + chordite-chords into single cargo workspace?
+- [x] can I merge chordite-rust + chordite-chords into single cargo workspace?
 - [ ] try going to newer rust
     - [ ] edition2024
     - [ ] new nightly at or after edition2024
