@@ -1,31 +1,36 @@
-__^_	Space
-_^__	Backspace
-___^	e
-___v	t
-^___	a
-v___	o
-__v_	i
-_v__	n
-%___	s
-_%__	h
-_^^_	r
-__^v	d
-___%	l
-__^%	u
-_v_v	c
-_^_v	m
-_^^^	w
-_^_%	f
-^__^	g
-v__v	y
-__^^	p
-__vv	b
-_^_^	v
-^_^_	k
-v_v_	j
-_vv_	x
-v__%	z
-__%_	q
+__^_  🠊RIGHT
+_^__  🠈LEFT
+___^  🠉UP
+___v  🠋DOWN
+^___  Space
+v___  Backspace
+
+__v_	e
+_v__	t
+%___	a
+_%__	o
+_^^_	i
+__^v	n
+___%	s
+__^%	h
+_v_v	r
+_^_v	d
+_^^^	l
+_^_%	u
+^__^	c
+v__v	m
+__^^	w
+__vv	f
+_^_^	g
+^_^_	y
+v_v_	p
+_vv_	b
+v__%	v
+__%_	k
+^__v	j
+v__^	x
+v_^_	z
+vv__	q
 
 %__%	Shift
 %_%_	Ctrl
@@ -40,8 +45,8 @@ _v_%	Tab
 ^^__	Del
 v%%_	Insert
 
-__%%	Home
-%%__	End
+%%__	Home
+__%%	End
 __%^	PgUp
 __%v	PgDn
 
@@ -52,18 +57,14 @@ vv_v	:
 ^__%	!
 ^^_%	?
 
-^__v	'
-v__^	"
-v_^_	`
-vv__	/
-vvv_	\
+_v^_	'
+%^^_	-
+%^^^	_
+vvv_	/
 _%%v	&
 _vvv	*
 _^^v	=
-_^^%	+
-%^^_	-
-%^^^	_
-_v^_	~
+_^^%	`
 v^__	$
 ^^^%	^
 %_%v	%
@@ -95,12 +96,14 @@ _%_^	9
 %%%%	(Reset)
 %_^^	CapsLock
 
+S-'  "
+S-/  \
+S-`  ~
+
 --Nav/Fn--
 
 %%_v	quit Nav/Fn (Reset)
 CapsLock    sticky-ALT
-h/j/k/l       🠈/🠋/🠉/🠊
-Bksp/t/e/Spc  🠈/🠋/🠉/🠊
-Bksp/a/e/Spc  🠈/🠋/🠉/🠊
 1-9,0       F1-F9,F10
 PgDn/PgUp    F11/F12
+

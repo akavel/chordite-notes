@@ -32,6 +32,7 @@ v__^	"	mm
 v_^_	`	mm
 _%_%	Enter	me
 _%%_	Escape	me
+_v_%	Tab	mm
 vv__	/	me
 vvv_	\	mh
 ^^^_	.	me
@@ -60,21 +61,29 @@ _%^_	7	mh
 _%_v	8	me
 _%_^	9	mm
 
-_v_^		mm
 v^__	$	he
-^_v_		me
 
 ^__%	!	mm
 ^^_%	?	mm
-_v_%		mm
 
 _v%_	[	mm
 _^%_	]	mh
 v%__	{	mm
 ^%__	}	hm
 
-
+_v_^		mm
+^_v_		me
 ^_^v		mm
+^^%_		mh
+^_^%		mh
+v%_%		mh
+^^%^		mh
+v_^^		mh
+%_^v		mh
+%%_^		mh
+^^%%		mh
+
+
 ^^_v	<	mm
 ^^^v	>	mh
 __%v	PgDn	mm
@@ -89,42 +98,38 @@ __%%	Home	mm
 vvvv	|	mm
 v^_v	@	mm
 v%%_	Insert	mh
-^^%_		mh
-^_^%		mh
-v%_%		mh
-^^%^		mh
 %%_v	(Nav/Fn Layer)	mh
-%%_^		mh
-^^%%		mh
+v_^v	(Nav/Fn Layer)	he
 _%%%	RightAlt	mh
 %^^%	#	mh
+%%%_	Alt	hm
+%%%%	(Nothing/Reset)	hm
+%_^^	CapsLock	hm
 
-^_v^		he
+_^%%		he
+_v%%		he
+v_%%		he
+^_%%		he
+
 _^vv		he
-v_^v		he
 v^^_		he
-v_^^		mh
-%^v_		he
+
 %^_^		he
 %^_v		he
-%_^v		mh
 _%vv		he
 _^%v		he
 v^^^		he
 v^^v		he
+
+^_v^		he
+%^v_		he
 %_%^		he
 ^^%v		he
 _%^%		he
-v_%%		he
 %^^v		he
-^_%%		he
 %^_%		he
 ^%_%		he
-_^%%		he
-_v%%		he
 v%%%		he
-%%%_	Alt	hm
-%%%%	(Nothing/Reset)	hm
 ^v__		hm
 _^v_		hm
 ^^v_		hm
@@ -143,7 +148,6 @@ vv%_		hm
 %vv_		he
 ^%v_		hm
 %v_v		he
-%_^^	CapsLock	hm
 ^%_v		hm
 ^^v^		hm
 v%_v		hm
@@ -155,7 +159,7 @@ vvv%		hm
 ^%%_		hm
 _%v%		hm
 v^^%		hm
-%%v_	Insert	hm
+%%v_		hm
 %_^%		hm
 vv%%		hm
 v%%v		hm
