@@ -1,0 +1,265 @@
+__^_  🠊RIGHT
+_^__  🠈LEFT
+___^  🠉UP
+___v  🠋DOWN
+^___  Space
+v___  Backspace
+
+__v_	e
+_v__	t
+%___	a
+_%__	o
+_^^_	i
+__^v	n
+___%	s
+__^%	h
+_v_v	r
+_^_v	d
+_^^^	l
+_^_%	u
+^__^	c
+v__v	m
+__^^	w
+__vv	f
+_^_^	g
+^_^_	y
+v_v_	p
+_vv_	b
+v__%	v
+__%_	k
+^__v	j
+v__^	x
+v_^_	z
+vv__	q
+
+%__%	Shift
+%_%_	Ctrl (old!) [-> freed]
+^^__	Ctrl
+%%%_	Alt
+_%%%	R_Alt
+^_^v	GUI
+%%_%	GUI (old!)
+%%_%	GUI (old xtra)
+%%_%	GUI (old xtra)
+%_%%	R_GUI
+
+_%_%	Enter
+_%%_	Escape
+_v_%	Tab
+S-Bksp	Del
+v%%_	Insert [rare]
+
+%%__	Home
+__%%	End
+__%^	PgUp
+__%v	PgDn
+
+^^^_	.
+^^^^	,
+^^_^	;
+vv_v	:
+^__%	!
+^^_%	?
+_v^_	'
+__v%	"
+%^^_	-
+%^^^	_
+vvv_	/
+_%%v	&
+_vvv	*
+_^^v	=
+_^^%	+
+%%v_	`
+v^__	$
+^^^%	^
+%_%v	%
+vvvv	|
+v^_v	@ [rare]
+%^^%	#
+
+%__v	0	me
+%__^	1	mm
+%_v_	2	mm
+%_^_	3	mm
+%v__	4	mh
+%^__	5	mh
+_%v_	6	me
+_%^_	7	mh
+_%_v	8	me
+_%_^	9	mm
+
+_v_^		mm // mouse
+^_v_		me // mouse
+^_^%		mh // mouse
+%%_^		mh // mouse
+
+
+////////////////////
+
+
+^_^v		mm (GUI ?)
+v^^_		mm (!)
+v_^^		mm
+v%_%		mh (GUI xtra?)
+^^%_		hh
+^^%^		hh
+%_^v		he
+^^%%		he
+
+_^%%		he
+_v%%		he
+v_%%		he
+^_%%		he
+
+_^vv		he
+
+%^_^		he
+%^_v		he
+_%vv		he
+_^%v		hm
+v^^^		he
+v^^v		hm
+
+^_v^		hh
+%^v_		hh
+%_%^		hm
+^^%v		hh
+_%^%		hh
+%^^v		hm
+%^_%		hm
+^%_%		hm
+v%%%		hm
+^v__		hh
+_^v_		hh
+^^v_		hh
+_v^^		mh
+^v_v		hh
+^vv_		hh
+v_%_		mm
+^_%_		he
+v^_^		mm
+v_v%		hh
+v_^%		hh
+v_%v		hm
+_%^^		hh
+vv%_		hh
+%vv_		he
+^%v_		hh
+%v_v		mh
+^%_v		hh
+^^v^		hh
+v%_v		mh
+_%^v		hm
+v^%v		hh
+%^vv		hh
+v%^v		hh
+vvv%		hh
+^%%_		hm
+_%v%		hm
+v^^%		hm
+%%v_		hm (alt xtra?)
+%_^%		mh
+vv%%		hm
+v%%v		hm
+^%%^		hh
+%%v%		hm
+%%%^		hm
+%%^%		hm
+%%%v		hm
+^%%%		hm
+__v^		hh
+v^v_		hh
+_vv^		hv
+vv^_		hh
+vv_^		hm
+v_v^		hv
+_v^v		hh
+^v_^		hv
+^v^_		hh
+_^v^		hv
+^_vv		hh
+vvv^		hv
+vv_%		hm
+%v_^		hh
+v%^_		hh
+v^_%		hm
+v^vv		hv
+vv^v		hv
+v%_^		hm
+v^%_		hh
+v%v_		hh
+vv^^		hh
+_^%^		hv
+v^v^		hi
+v_%^		hm
+%_v^		hv
+^_v%		hv
+^%^_		hv
+^vv^		hi
+^_%v		hh
+^v%_		hi
+^%_^		hh
+_^v%		hv
+^^vv		hh
+%_vv		hm
+^v^^		hh
+^vvv		hh
+^v^v		hv
+_v%v		hm
+_v%^		hh
+%v^_		hh
+_%v^		hv
+_vv%		hv
+_v^%		hh
+^_%^		hh
+^v_%		hv
+^%v^		hv
+^^v%		hh
+^v%^		hi
+^v%v		hv
+v^v%		hv
+_%%^		hm
+^%^^		hv
+v^%^		hv
+^%^v		hv
+^v^%		hh
+^vv%		hh
+^%vv		hh
+%v^v		hv
+v%^^		hh
+vv^%		hh
+%%^_		hm
+%vv^		hv
+vv%v		hh
+%^%_		hh
+v%v^		hi
+%vvv		hh
+vv%^		hi
+%_v%		hh
+%v_%		hm
+%v^^		hh
+%^v^		hv
+v%vv		hh
+%v%_		hm
+^v%%		hv
+%%vv		hm
+%%v^		hv
+%vv%		hh
+%v%^		hh
+%v%v		hh
+%%^^		hm
+%%^v		hm
+%^v%		hv
+^%^%		hv
+v%%^		hv
+%v^%		hv
+v%^%		hv
+v%v%		hh
+%^%^		hv
+^%%v		hv
+^%v%		hv
+%^%v		hv
+v^%%		hv
+%v%%		hh
+%^%%		hh
+

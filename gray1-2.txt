@@ -71,16 +71,16 @@ _^%_	]	mh
 v%__	{	mm
 ^%__	}	hm
 
-_v_^		mm
-^_v_		me
+_v_^		mm // mouse
+^_v_		me // mouse
 ^_^v		mm
 ^^%_		mh
-^_^%		mh
+^_^%		mh // mouse
 v%_%		mh
 ^^%^		mh
 v_^^		mh
 %_^v		mh
-%%_^		mh
+%%_^		mh // mouse
 ^^%%		mh
 
 
