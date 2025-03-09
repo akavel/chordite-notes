@@ -88,18 +88,17 @@ _%^_	7	mh
 _%_v	8	me
 _%_^	9	mm
 
-_v_^		mm // mouse
-^_v_		me // mouse
-^_^%		mh // mouse
-%%_^		mh // mouse
+^_^%		mh // mouse toggle
+_v_^		mm // mouse left clik
+^_v_		me // mouse right clik
+%%_^		mh // mouse drag toggle
+v^^_		mm // mouse wheel up
+v_^^		mm // mouse wheel down
 
 
 ////////////////////
 
 
-^_^v		mm (GUI ?)
-v^^_		mm (!)
-v_^^		mm
 v%_%		mh (GUI xtra?)
 ^^%_		hh
 ^^%^		hh
