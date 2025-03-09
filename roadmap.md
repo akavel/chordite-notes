@@ -78,8 +78,56 @@ Actual keyboard stuff.
     - [ ] <https://crates.io/crates/unicode-width> ?
 
 ## Mouse
-- <https://github.com/NeoBirth/accelerometer.rs>
-- <https://crates.io/crates/dcmimu>
+- [ ] connection diagram for GY-521 <-> Teensy2
+    - [ ] some Arduino thing?
+- [x] see if I can find an existing Arduino sketch for GY-521 (MPU6050)
+- [x] try see some changing values
+    - yay Serial Plotter <3
+- [ ] "draw a cursor position on a rectangular pseudo-screen"
+- [ ] branch 1:
+    - [ ] smoothing of noise
+    - [ ] projection on flat surface (?)
+    - [ ] LATER: multipliers for speed
+    - [ ] LATER LATER: "dynamic precision" algorithm
+- [ ] "on/off" switch
+    - [ ] start with just a jumper wire on the breadboard
+- [x] USB mouse
+- [ ] 🔔 🚀 USB mouse in Rust
+    - [ ] 🔔 🚀 try importing mpu6050-dmp-rs lib
+    - [ ] try initializing i2c on Teensy2
+    - [ ] try attaching mpu6050 object to i2c
+    - [ ] try reading some results and dumping them to serial (use arduino serial plotter format)
+- [ ] LATER: try use DMP <https://github.com/barafael/mpu6050-dmp-rs/tree/master/examples>
+- [x] LATER: see if I can find ready-made GY-521 (or MPU6050) mouse sketch (Arduino/Teensy)
+- [ ] looksy: <https://github.com/NeoBirth/accelerometer.rs>
+- [ ] looksy: <https://crates.io/crates/dcmimu>
+
+## Improvements
+- [ ] mouse: still too shaky; try improving this
+    - [ ] try enabling builtin DMP
+        - [ ] first, only for stability etc.
+        - [ ] LATER: also try and see what calibration can give
+        - [ ] try doing my own extra averaging / low-pass filter
+        - [ ] maybe google up some "stabilization" algorithms or something, maybe for mouse/pointer
+- [ ] kbd: improve debounce
+    - [ ] esp. on: Space, `t`
+- [x] kbd/mouse: chords to simulate mouse scroll up/down
+    - ~~try to take from easy keys maybe~~
+- [ ] try making time-based things work on counted timers instead of just changing delay when I want faster/slower - there's more than one thing now so it no longer works well
+    - [ ] maybe use <https://docs.embassy.dev/embassy-executor/git/cortex-m/index.html> ?
+    - [ ] mouse
+    - [ ] kbd / debounce
+- [ ] "layout configurator Lua script"
+- [ ] kbd: fix "sticky Alt"
+- [ ] kbd: try to find some still-unused better combinations for some keys that show up more needed
+    - [ ] Alt
+    - [ ] "Shift layer"? make it some new better layer?
+    - [x] GUI?
+    - [ ] `:`?
+    - [x] ~~I never yet used Del - maybe move it to "Shift-layer", and make `^^__` enable the layer?~~
+    - [ ] mouse buttons
+- [ ] mouse: model a sphere and properly move cursor when tilted
+- [ ] LATER: maybe new mouse layer enabling some "instant reaction" buttons (non-chorded)  
 
 ## Wireless
 - BLE?
